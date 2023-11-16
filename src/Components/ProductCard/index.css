@@ -1,0 +1,35 @@
+.product-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    width: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .product-item {
+        width: 300px;
+    }
+}
+
+.thumbnail {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 6px;
+}
+
+.title {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+}
